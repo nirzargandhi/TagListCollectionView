@@ -1,0 +1,16 @@
+PODS:
+  - TagsFlowLayout (1.0)
+
+DEPENDENCIES:
+  - TagsFlowLayout
+
+SPEC REPOS:
+  trunk:
+    - TagsFlowLayout
+
+SPEC CHECKSUMS:
+  TagsFlowLayout: d4e2eb0ea12940e98e2f57fff4482f226df4cd88
+
+PODFILE CHECKSUM: 84bb2a866cef77e75454aa48fa43dfed56f11503
+
+COCOAPODS: 1.15.0
