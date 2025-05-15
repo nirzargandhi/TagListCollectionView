@@ -47,10 +47,10 @@
 		12A25DA72B7A1E6C00D01002 = {
 			isa = PBXGroup;
 			children = (
-				12A25DB22B7A1E6C00D01002 /* TagListCVDemo */,
-				12A25DB12B7A1E6C00D01002 /* Products */,
-				F3EFF7163547CC210A1114E4 /* Pods */,
 				D699878545F371DA70F8137A /* Frameworks */,
+				F3EFF7163547CC210A1114E4 /* Pods */,
+				12A25DB12B7A1E6C00D01002 /* Products */,
+				12A25DB22B7A1E6C00D01002 /* TagListCVDemo */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,8 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				12A25DB32B7A1E6C00D01002 /* AppDelegate.swift */,
-				12BA07E72D7B1EFB0098021D /* Cell */,
 				12A25DB72B7A1E6C00D01002 /* ViewController.swift */,
+				12BA07E72D7B1EFB0098021D /* Cell */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -416,6 +416,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -444,6 +445,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TagListCVDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -451,6 +453,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
